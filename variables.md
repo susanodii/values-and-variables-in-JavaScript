@@ -30,6 +30,9 @@ The output is shown below:
 
 ![](images/value_img1.png)
 
-From the result above, the output in the terminal is the same with value entered in the console. Values have different data types such as strings, numbers, booleans,arrays, obejects and so on. Values are reusable when assigned to a variable in order words, when stored in a variable. 
+From the result above, the output in the terminal is the same with value entered in the console. Values have different data types such as strings, numbers, booleans,arrays, obejects and so on. You can give name to values by assigning them to a variable. Values are reusable when assigned to a variable in order words, when stored in a variable. 
 
 ### What are variables in JavaScript
+
+Variables are containers that are used to hold values. Y Values are used to hold data values and can be changed, manupulated or used anytime you want to. In JavaScript, variables are declared using three reserved keywords which are: "var", "const", and "let". These key words are assigned to a value using the assignment operator "=". 
+
