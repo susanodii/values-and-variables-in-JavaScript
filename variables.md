@@ -32,4 +32,4 @@ The output is shown below:
 
 From the result above, the output in the terminal is the same with value entered in the console. Values have different data types such as strings, numbers, booleans,arrays, obejects and so on. Values are reusable when assigned to a variable in order words, when stored in a variable. 
 
-<!-- ### What are variables in JavaScript -->
+### What are variables in JavaScript
