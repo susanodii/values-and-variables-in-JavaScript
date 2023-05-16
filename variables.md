@@ -69,18 +69,62 @@ Using any of this researved keyword shows that you want to store your values in 
 
 ### How to store data value to a variable
 
-You can store data value to a variable using the assignment operator. In JavaScript, the assignment operetor is the "**=**" symbol.This symbol is called **the assignment operator** To store a value, place your variable on the left side of the symbol and place your value at the right side. Storing a value in a variable is also known as at the same time
-**initializing a variable** The example be shows how to initialize a variabel:
+You can store data value to a variable using the assignment operator. In JavaScript, the assignment operetor is the "**=**" symbol.To store a value, place your variable on the left side of the symbol and place your value at the right side. Storing a value in a variable is also known as at the same time
+**initializing a variable** The example be shows how to initialize a variable:
 
 ```
 let myName   = "Susan"
 var myName   = "Susan"
 const myName = "Susan"
 ```
+If you want to use this value, all you have to do is use the variable you assigned the value to as show below
+```
+let myName = "Susan"
+console.log(myName)
+``` 
+
+Your will output the value Susan
+![](images/value_img1.png)
+
+Initialized variables can be used over and over again in your codes.
 
 ### Best practices for naming variables in JavaScript
 
+When naming variables, use descriptive and easy to understand names.Your variable names should easily describe what value your variable is holding.  This will make your codes easy to read and understand by other programmers. Descriptive names will also help you to understand your codes in the future when you want to refactor or improve your them.
+
 Below are list of best practices for naming varibles in JavaScript:
 
-1. 
+1. Variable names should always start with either a dollar sign or an underscore.
+   
+   ```
+   let myName  = "Susan"
+   let _myName = "Susan"
+   let $myName = "Susan"
+   ```
 
+2. Do not begin variable names with numbers.
+Doing so will throw an error. 
+   ```
+   let 3myName = "Susan"
+   ``` 
+
+3. Variable names cannot contain special characters except the dolla sign. They can only contain letters, numbers, underscore and dollar sign.
+   
+   ```
+   let first&lastName = "Susan Odii"
+   ```
+   The example above will throw an error due to the 
+   "**&**" in it.
+3. Do not name variables with JavaScript reserved keywords. JavaScript will throw an error if you use a reserved keyword. 
+   ```
+   let new = 47
+   ```
+   The code above will throw an error because "new" is a researved keyword.
+
+4. In JavaScript, it is best to name variables in camel case. Camel case means, whenever you have multiple words, you write the first letter of the word with a small letter, then all the first letter of the subsequent words should begin with a capital letter as shown below:
+   ```
+   let firstName = "Susan"
+   ```
+Notice that the first letter of the first word starts with a small letter and then the second word starts with a capital letter. 
+
+<!-- ### Conclusion -->
