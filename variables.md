@@ -127,4 +127,8 @@ Doing so will throw an error.
    ```
 Notice that the first letter of the first word starts with a small letter and then the second word starts with a capital letter. 
 
-<!-- ### Conclusion -->
+### Conclusion
+Values and variables are one of the fundamentals of JavaScript and understanding how to work with them will improve your carrer in programming. Values are the smallest units of information in JavaScript. Values have different data types like strings, numbers, booleans,arrays, obejects and so on. 
+
+Variables on the other hand serves as a container for holding values and can be used and modified over and over agin in your codes. Variables are initialised when they are assigned a value using the assingment operator. 
+ JavaScript has best practices when naming variables and when applied properly, improves your code readability.
