@@ -2,7 +2,7 @@
 
 ![](images/js_logo.jpg)
 
-#### Tables of Contents
+#### Table of Contents
 
 #### Introduction
 
@@ -10,7 +10,7 @@
 
 #### What are variables in JavaScript
 
-#### How to declare a varable in JavaScript
+#### How to declare a varables in JavaScript
 
 #### How to store data value to a variable
 
@@ -21,13 +21,13 @@
 ### Introduction
 
 JavaScript is a high level programming langugage that can be used in web development, mobile development, building games and other other areas of software development.  
-Values and vareables are one of the fundamental concepts in JavaScript that when used properly, can help you to write clean and efficent JavaScript codes.
+Values and variables are one of the fundamental concepts in JavaScript that when used properly, can help you to write clean and efficent and maintainable codes.
 
 In this article, you will learn about values and variables in JavaScript with detailed examples and best practices best practices for naming variables in JavaScript.
 
 ### What are values in JavaScript
 
-Values are the smallest unit of imformation in JavaScript. Every piece of data in JavaScript are considered to contain a value. For example,  
+Values are the smallest unit of information in JavaScript. Every piece of data in JavaScript are considered to contain a value. For example,  
 "Susan" is a value. If you want to see this value in the console, type :
 
 ```
@@ -43,21 +43,19 @@ From the result above, the output in the terminal is the same with value entered
 
 ### What are variables in JavaScript
 
-Variables are used to store data values and can be accessed throughout the programe.
-Variables act like containers that are used to hold values and can be updated and retrieved when needed. For example, in the example used above, the value "Susan" can not be retrieved for use later in the program because it was not stored in a variable. If you want to keep using "Susan" then it has to be stored in a variable. You can think of a variable as a container that stores the value Susan, each time you want to  use the value Susan, you simply go the container.
+Variables are used to store data values and can be accessed throughout the programme.
+Variables act like containers that are used to hold values and can be updated and retrieved when needed. For example, in the example used above, the value "Susan" can not be retrieved for use later in the program because it was not stored in a variable.  You can think of a variable as a container that stores the value Susan, each time you want to  use the value Susan, you simply go the container.
 
-<!--
-In JavaScript, variables are declared using three reserved keywords which are: "var", "const", and "let".  -->
 
 ### How to declare a variable in JavaScript
 
-You can decleare a variable in JavaScript using any of this three reserved keywords in JavaScript which are:
+You can declare a variable in JavaScript using any of the following reserved keywords:
 
 1. let
 2. var
 3. const
 
-For example:
+The example below shows how you can use **var**, **let**, and **const**
 
 ```
 let myName
@@ -65,7 +63,6 @@ var myName
 const myName
 ```
 
-Using any of this researved keyword shows that you want to store your values in a variable.
 
 ### How to store data value to a variable
 
@@ -77,20 +74,12 @@ let myName   = "Susan"
 var myName   = "Susan"
 const myName = "Susan"
 ```
-<!-- If you want to use this value, all you have to do is use the variable you assigned the value to as show below
-```
-let myName = "Susan"
-console.log(myName)
-```  -->
-
-<!-- Your will output the value Susan
-![](images/value_img1.png) -->
 
 Initialized variables can be used over and over again in your codes.
 
 ### Best practices for naming variables in JavaScript
 
-When naming variables, use descriptive and easy to understand names.Your variable names should easily describe what value your variable is holding.  This will make your codes easy to read and understand by other programmers. Descriptive names will also help you to understand your codes in the future when you want to refactor or improve your them.
+When naming variables, use descriptive and easy to understand names. Variable names should easily describe what value it is holding. Descriptive variable names enhances code readability, reusability, and maintability. 
 
 Below are list of best practices for naming varibles in JavaScript:
 
@@ -102,8 +91,7 @@ Below are list of best practices for naming varibles in JavaScript:
    let $myName = "Susan"
    ```
 
-2. Do not begin variable names with numbers.
-Doing so will throw an error. 
+2. Do not begin variable names with numbers, doing so will throw an error. 
    ```
    let 3myName = "Susan"
    ``` 
@@ -111,24 +99,25 @@ Doing so will throw an error.
 3. Variable names cannot contain special characters. They can only contain letters, numbers, underscore and dollar sign.
    
    ```
-   let first&lastName = "Susan Odii"
+   let first&lastName = "Susan Odii"  // error
    ```
-   The example above will throw an error due to the special character
-   "**&**"  in it.
-3. Do not name variables with JavaScript reserved keywords. JavaScript will throw an error if you use a reserved keyword. 
+   
+4. Do not name variables with reserved keywords in JavaScript. Using reserved keywords will throw an error. 
    ```
-   let new = 47
+   let new = 47 // error
    ```
-   The code above will throw an error because "new" is a researved keyword.
+The code above will throw an error because "new" is a reserved keyword.
 
-4. In JavaScript, it is best to name variables in camel case. Camel case means, whenever you have multiple words, you write the first letter of the word with a small letter, then all the first letters of the subsequent words should begin with a capital letter as shown below:
+5. It is best to name variables in camel case. Camel case means, whenever you have multiple words, you write the first letter of the first word with a small letter, then all the first letters of the subsequent words should begin with a capital letter as shown below:
    ```
    let firstName = "Susan"
    ```
-Notice that the first letter of the first word starts with a small letter and then the second word starts with a capital letter. 
+Notice that the first letter of the first word starts with a small letter and the first letter of the next word starts with a capital letter. 
 
 ### Conclusion
-Values and variables are one of the fundamentals of JavaScript and understanding how to work with them will improve your carrer in programming. Values are the smallest units of information in JavaScript. Values have different data types like strings, numbers, booleans, arrays, obejects and so on. 
+Values and variables are one of the fundamentals of JavaScript and understanding how to work with them will improve your carrer in programming.
 
-Variables on the other hand serves as a container for holding values and can be used and modified over and over agin in your codes. Variables are initialised when they are assigned a value using the assignment operator. 
+ Values are the smallest units of information in JavaScript and have different data types such as: strings, numbers, booleans, arrays and obejects. 
+
+Variables serves as a containers for holding values and modified and used when the need arises. Variables are initialised when they are assigned a value using the assignment operator. 
  JavaScript has best practices for naming variables and when applied properly, improves your code readability.
