@@ -114,7 +114,7 @@ Below are list of best practices for naming varibles in JavaScript:
    ```
    let new = 47 // error
    ```
-The code above will throw an error because "new" is a reserved keyword.
+The code above will throw an error because "new" is a reserved keyword in JavaSript.
 
 5. It is best to name variables in camel case. Camel case means, whenever you have multiple words, you write the first letter of the first word with a small letter, then all the first letters of the subsequent words should begin with a capital letter as shown below:
    ```
