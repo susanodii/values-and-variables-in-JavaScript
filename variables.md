@@ -60,7 +60,7 @@ You can declare a variable in JavaScript using any of the following reserved key
 2. var
 3. const
 
-The example below shows how you can use **var**, **let**, and **const**
+The example below shows how you can use **var**, **let**, and **const** keywords:
 
 ```
 let myName
@@ -71,8 +71,11 @@ const myName
 
 ### How to store data value to a variable
 
-You can store data value to a variable using the assignment operator. In JavaScript, the assignment operetor is the "**=**" symbol.To store a value, place your variable on the left side of the symbol and place your value at the right side. Storing a value in a variable at the same time is called
-**initializing a variable** The example be shows how to initialize a variable:
+
+<!-- To store a value, place your variable on the left side of the symbol and place your value at the right side. -->
+You can store data value to a variable using the assignment operator. In JavaScript, the assignment operetor is represented by the symbol "**=**".
+To store a value, place your variable on the left side of the symbol and the desired value on the right side. This process of storing a value in a variable simultaneously is called **initializing a variable**.
+ The following example shows how to initialize a variable:
 
 ```
 let myName   = "Susan"
