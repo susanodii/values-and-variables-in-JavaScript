@@ -119,13 +119,21 @@ The code above will throw an error because "new" is a reserved keyword in JavaSr
 5. It is best to name variables in camel case. Camel case means, whenever you have multiple words, you write the first letter of the first word with a small letter, then all the first letters of the subsequent words should begin with a capital letter as shown below:
    ```
    let firstName = "Susan"
+   let lastName = "Odii"
    ```
 Notice that the first letter of the first word starts with a small letter and the first letter of the next word starts with a capital letter. 
 
 ### Conclusion
-Values and variables are one of the fundamentals of JavaScript and understanding how to work with them will improve your carrer in programming.
 
- Values are the smallest units of information in JavaScript and have different data types such as: strings, numbers, booleans, arrays and obejects. 
+Values and variables are fundamental concepts in JavaScript and having a solid understanding of how to work with them will improve the readability and reuseability of your code.
 
-Variables serves as a containers for holding values and modified and used when the need arises. Variables are initialised when they are assigned a value using the assignment operator. 
- JavaScript has best practices for naming variables and when applied properly, improves your code readability.
+Variables acts as a containers for storing values allowing them to be modified and used when the need arise. Initialization occurs when variables are assigned values using the assignment operator and following best practices for variable naming will improve code readability and reuseability.
+
+Continuously honing your skills in working with values and variables will contribute to your growth as a JavaScript developer and help you build robust and high-quality applications.
+
+ 
+
+
+
+
+
