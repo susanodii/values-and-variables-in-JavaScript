@@ -21,7 +21,7 @@
 ### Introduction
 
 JavaScript is a high level programming langugage that can be used in web development, mobile development, and other other areas of software development.  
-In JavaScript, understanding the fundamental concept of values and variables is crucial.When used correctly, they contribute to writing clean, efficient, and maintainable code. 
+In JavaScript, understanding the fundamental concept of values and variables is crucial. When used correctly, they contribute to writing clean, efficient, and maintainable codes. 
 
 In this article, you will learn about values and variables in JavaScript with detailed examples and, best practices for naming variables in JavaScript.
 
@@ -39,7 +39,14 @@ The output is shown below:
 
 ![](images/value_img1.png)
 
-From the result above, the output in the terminal is the same with value entered in the console. Values have different data types such as strings, numbers, booleans,arrays, obejects and so on. You can give name to values by assigning them to a variable. Values are reusable when assigned to a variable in order words, when stored in a variable.
+From the result above, the output in the terminal is the same with value entered in the console. Values have different data types and they are:
+1. Strings
+2. Numbers
+3. Booleans
+4. Arrays
+5. Obejects
+
+ You can give name to values by assigning them to a variable. Values are reusable when assigned to a variable in order words, when stored in a variable.
 
 ### What are variables in JavaScript
 
