@@ -27,8 +27,7 @@ In this article, you will learn about values and variables in JavaScript with de
 
 ### What are values in JavaScript
 
-Values are the smallest unit of information in JavaScript. Every piece of data in JavaScript are considered to contain a value. For example,  
-"Susan" is a value. If you want to see this value in the console, type :
+Values are the smallest unit of information in JavaScript. Every piece of data in JavaScript are considered to contain a value. For example, "Susan" is a value. If you want to see this value in the console, type :
 
 ```
 console.log("Susan")
@@ -50,8 +49,7 @@ From the result above, the output in the terminal is the same with value entered
 
 ### What are variables in JavaScript
 
-Variables are used to store data values and can be accessed throughout the programme.
-Variables act like containers that are used to hold values and can be updated and retrieved when needed. For example, in the example used above, the value "Susan" can not be retrieved for use later in the program because it was not stored in a variable.  You can think of a variable as a container that stores the value Susan, each time you want to  use the value Susan, you simply go the container.
+Variables are used to store data values and can be accessed throughout the program.They function as containers for holding values and can be updated and retrieved when needed. Without variables, data values cannot be retrieved for later use. Think of a variable as a container that holds a specific value like "Susan". Whenever you need to use the value, you can access it from the container. 
 
 
 ### How to declare a variable in JavaScript
