@@ -20,10 +20,10 @@
 
 ### Introduction
 
-JavaScript is a high level programming langugage that can be used in web development, mobile development, building games and other other areas of software development.  
-Values and variables are one of the fundamental concepts in JavaScript that when used properly, can help you to write clean and efficent and maintainable codes.
+JavaScript is a high level programming langugage that can be used in web development, mobile development, and other other areas of software development.  
+In JavaScript, understanding the fundamental concept of values and variables is crucial.When used correctly, they contribute to writing clean, efficient, and maintainable code. 
 
-In this article, you will learn about values and variables in JavaScript with detailed examples and best practices best practices for naming variables in JavaScript.
+In this article, you will learn about values and variables in JavaScript with detailed examples and, best practices for naming variables in JavaScript.
 
 ### What are values in JavaScript
 
